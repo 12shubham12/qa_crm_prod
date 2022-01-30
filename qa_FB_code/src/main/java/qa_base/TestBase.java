@@ -17,6 +17,8 @@ public class TestBase {
 	
 	@BeforeSuite
 	//initialization by user2
+	//Initialization
+>>>>>>> 80cf601 (second commit from user1)
 	public void initialization(){
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
