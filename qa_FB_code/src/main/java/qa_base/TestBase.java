@@ -16,6 +16,7 @@ public class TestBase {
 	public WebDriver driver;
 	
 	@BeforeSuite
+	//initialization by user2
 	public void initialization(){
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
